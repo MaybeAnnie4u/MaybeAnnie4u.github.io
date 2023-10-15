@@ -49,7 +49,8 @@
 
 
   ul {
-    list-style: none;
+    list-style: disc outside none;
+margin-left: 12px;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -705,6 +706,7 @@ ul.sub-menu {
   font-weight: 300;
 }
 
+
 .single-features {
   overflow: hidden;
   padding-top: 65px;
@@ -726,6 +728,10 @@ ul.sub-menu {
   margin: 0 auto;
   max-width: 100%; 
 position: inherit;
+}
+
+.single-features map{
+  max-width: 100%; 
 }
 
 #clients{
